@@ -1,0 +1,32 @@
+/*1. color general de la lletra negra*/
+body{
+    color:black !important;
+}
+
+/*2. titol nivell 1 fons blanc lletra gris*/
+#titol-pagina{
+    background-color: white !important;
+    color: grey !important;
+}
+
+/*3. tots els strong en color verd i subratllats*/
+p > strong{
+    color: green !important;
+    text-decoration: underline !important;
+}
+
+/*4. enllaços del paràgraf2 en italica*/
+p.paragraf2 a {
+    font-style: italic !important;
+}
+/*5. footer general del web centrat i lletra de 10px*/
+footer{
+    text-align: center !important;
+    font-size: 10px !important;   
+}
+
+/*6. Canvia l'ordre de càrrega dels fitxers i mira què passa. Sabries modificar el teu codi per a que se seguís veient igual que abans de canviar l'ordre?*/
+/* Un cop canviat la carrega d'ordre dels fitxers el que canvia són els  */
+
+
+/*Per a donar maxima prioritat el que hem fet es posar !important a tots els estils aplicats*/
