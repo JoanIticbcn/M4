@@ -1,32 +1,32 @@
 /*1. color general de la lletra negra*/
-body{
-    color:black !important;
+#container{
+    color:black ;
 }
 
 /*2. titol nivell 1 fons blanc lletra gris*/
 #titol-pagina{
-    background-color: white !important;
-    color: grey !important;
+    background-color: white;
+    color: grey ;
 }
 
 /*3. tots els strong en color verd i subratllats*/
-p > strong{
-    color: green !important;
-    text-decoration: underline !important;
+p.paragraf1 strong, p.paragraf2 strong{
+    color: green;
+    text-decoration: underline;
 }
 
 /*4. enllaços del paràgraf2 en italica*/
 p.paragraf2 a {
-    font-style: italic !important;
+    font-style: italic;
 }
 /*5. footer general del web centrat i lletra de 10px*/
-footer{
-    text-align: center !important;
-    font-size: 10px !important;   
+h3.titol_destacat~footer{
+    text-align: center ;
+    font-size: 10px;   
 }
 
 /*6. Canvia l'ordre de càrrega dels fitxers i mira què passa. Sabries modificar el teu codi per a que se seguís veient igual que abans de canviar l'ordre?*/
-/* Un cop canviat la carrega d'ordre dels fitxers el que canvia són els  */
+/* Un cop canviat la carrega d'ordre dels fitxers el que canvia són el color del body el titol de pagina els strong dels paragragrafs 1 i 2 els enllaços que estan en italica 
+aixo ho hem mirat abans de aplicar els canvis per donar prioritat maxima a la sobreescriptura */
 
-
-/*Per a donar maxima prioritat el que hem fet es posar !important a tots els estils aplicats*/
+/*Per a donar maxima prioritat el que hem fet es mirar que tots tinguessin un selector specifity superior als estils inicials*/
