@@ -1,0 +1,30 @@
+<!ELEMENT botiga (Videojocs , clients )>
+<!ELEMENT Videojocs (plataforma)>
+<!ELEMENT plataforma (pc*,ps5*)>
+<!ELEMENT pc (videojoc*)>
+<!ELEMENT ps5 (videojoc*)>
+<!ELEMENT videojoc (titol,companyia+,categoria+,preu,data_llançament)>
+<!ELEMENT titol  (#PCDATA)>
+<!ELEMENT companyia (#PCDATA)>
+<!ELEMENT categoria  (#PCDATA)>
+<!ELEMENT preu (#PCDATA)>
+<!ELEMENT data_llançament (#PCDATA)>
+<!ELEMENT clients (client*)>
+<!ELEMENT client (nom,telefon+,email?,data_neixament,compres,adreça*)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT telefon (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT data_neixament (#PCDATA)>
+<!ELEMENT compres (si | no )>
+<!ELEMENT si EMPTY>
+<!ELEMENT no EMPTY>
+<!ELEMENT adreça (localitat*)>
+<!ELEMENT localitat ( codi_postal+, carrer+)>
+<!ELEMENT codi_postal  (#PCDATA)>
+<!ELEMENT carrer (nom_carrer,num_portal)>
+<!ELEMENT nom_carrer (#PCDATA)>
+<!ELEMENT num_portal (#PCDATA)>
+<!ATTLIST videojoc id ID #REQUIRED>
+<!ATTLIST client id ID #REQUIRED>
+<!ATTLIST compres id_jocs IDREFS #REQUIRED>
+<!ATTLIST telefon pais CDATA #REQUIRED>
