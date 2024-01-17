@@ -1,0 +1,103 @@
+{
+    "Pokemons": [
+        {
+            "Id_Pokemon": 1,
+            "Nom": "Bulbasur",
+            "Tipus": [
+                "Planta",
+                "Veneno"
+            ],
+            "pes": {
+                "valor": 6.9,
+                "unitat": "KG"
+            },
+            "altura": {
+                "valor": 0.7,
+                "unitat": "Metres"
+            },
+            "estadisticas": {
+                "velocitat": 3,
+                "fortaleza": 3,
+                "precisio": 4,
+                "resistencia": 4,
+                "salto": 3
+            },
+            "moviments": [
+                {
+                    "nom": "placage",
+                    "descripcio": "Golpe con el cuerpo",
+                    "potencia": 40,
+                    "contacte": true
+                },
+                {
+                    "nom": "grunyit",
+                    "descripcio": "Grito",
+                    "potencia": null,
+                    "contacte": false
+                }
+            ],
+            "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/43/latest/20190406170624/Bulbasaur.png/200px-Bulbasaur.png",
+            "evolucions": [
+                {
+                    "Id_Pokemon": 2,
+                    "nom": "Ivysur",
+                    "nivell_necesar": 16
+                },
+                {
+                    "Id_Pokemon": 3,
+                    "nom": "Vensaur",
+                    "nivell_necesar": 32
+                }
+            ]
+        },
+        {
+            "Id_Pokemon": 4,
+            "Nom": "Charmander",
+            "Tipus": [
+                "Foc"
+            ],
+            "pes": {
+                "valor": 8.5,
+                "unitat": "KG"
+            },
+            "altura": {
+                "valor": 0.6,
+                "unitat": "Metres"
+            },
+            "estadisticas": {
+                "velocitat": 3,
+                "fortaleza": 5,
+                "precisio": 4,
+                "resistencia": 3,
+                "salto": 3
+            },
+            "moviments": [
+                {
+                    "nom": "Esgarrapada",
+                    "descripcio": "Esgarrapar",
+                    "potencia": 40,
+                    "contacte": true
+                },
+                {
+                    "nom": "grunyit",
+                    "descripcio": "Grito",
+                    "potencia": 100,
+                    "contacte": false
+                }
+            ],
+            "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/56/latest/20200307023245/Charmander.png/200px-Charmander.png",
+            "evolucions": [
+                {
+                    "Id_Pokemon": 5,
+                    "nom": "Charmeleon",
+                    "nivell_necesar": 16
+                },
+                {
+                    "Id_Pokemon": 6,
+                    "nom": "Charizard",
+                    "nivell_necesar": 36
+                }
+            ]
+        }
+    ]
+}
