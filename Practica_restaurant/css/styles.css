@@ -205,8 +205,9 @@ img.lobster {
     height: 10vw;
     width: 10vw;
     margin: 0.5vw 0.5vw 0.5vw 0.5vw;
-    border: 1px solid black;
-    border-radius: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
 }
 
 img.lobster:hover {
@@ -279,6 +280,7 @@ div.end {
     border: 0.2px black;
     border-radius: 10px;
 }
+
 /*Fem que hi hagi menys marge quan el tamany de la pantalla sigui inferior a 800 px*/
 @media (width: 800px) {
     main {
