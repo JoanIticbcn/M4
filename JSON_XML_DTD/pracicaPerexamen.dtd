@@ -1,0 +1,20 @@
+<!-- DTD para proyectos de diseño web -->
+<!ELEMENT proyectos (proyecto+)>
+
+<!ELEMENT proyecto (nombre, cliente, disenadores, tecnologias, fecha_finalizacion)>
+<!ATTLIST proyecto id ID #REQUIRED>
+<!ATTLIST proyecto idioma (cat | es) "cat">
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT cliente (nombre, contacto?)>
+<!ELEMENT disenadores (disenador*)>
+<!ELEMENT tecnologias (tecnologia+)>
+<!ELEMENT fecha_finalizacion (#PCDATA)>
+
+<!ELEMENT disenador (nombre,  contacto?)>
+<!ELEMENT tecnologia (#PCDATA)>
+
+<!ELEMENT contacto (correo?, telefono?)>
+<!ELEMENT correo (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ATTLIST telefono pais (es | fr | br | pt) #REQUIRED>

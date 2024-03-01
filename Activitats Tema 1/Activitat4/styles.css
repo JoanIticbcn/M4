@@ -1,0 +1,42 @@
+body{
+    text-align: left;
+    padding-left: 15vw;
+    background-color: wheat;
+    font-family: Verdana;
+    font-size: 1em;
+}
+h1{
+    color: orange;
+}
+legend{
+    font-size: medium;    
+    font-weight: bold;
+}
+
+.form1{
+    size: 300px;
+} 
+#form-edat{
+    size:100px
+}
+.button{
+    height: 8vh;
+    width: 15vh;
+    color: white;
+    background-color: orange;
+}
+.button:hover{
+    color:black;
+    background-color: white;
+}
+#form-edat:focus{
+    color:red;
+}
+@media(max-width:680px){
+    body{
+        display:block;
+        padding-left: 5vw;
+        font-size: 1em;
+        background-color: wheat;
+    }
+}

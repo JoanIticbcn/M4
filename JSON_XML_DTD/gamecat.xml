@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE botiga SYSTEM "botiga.dtd">
+<botiga>
+<Videojocs>
+    <plataforma>
+        <pc>
+            <videojoc id="XXXA">
+                <titol>Battlefield 2047</titol>
+                <companyia>EA Sports</companyia>
+                <categoria>Shooter</categoria>
+                <preu>40€</preu>
+                <data_llançament>10/07/2021</data_llançament>
+            </videojoc>
+            <videojoc id="XXXB">
+                <titol>Grand Theft Auto 5</titol>
+                <companyia>Rockstar</companyia>
+                <categoria>Shooter</categoria>
+                <preu>40€</preu>
+                <data_llançament>17/09/13</data_llançament>
+            </videojoc>
+        </pc>
+        <ps5>
+            <videojoc id="XXXC">
+                <titol>Fornite</titol>
+                <companyia>Epic Games</companyia>
+                <categoria>BattleRoyale</categoria>
+          <preu>Gratis</preu>
+                <data_llançament> 25/07/2017</data_llançament> 
+            </videojoc>
+        </ps5>
+    </plataforma>
+</Videojocs>
+
+
+
+
+<clients>
+  <client id="YYYA">
+    <nom>PERE </nom>
+    <telefon pais="España"> 634124459</telefon>
+    <email>perepere@gmail.com</email>
+    <data_neixament>1900</data_neixament>
+    <compres id_jocs="XXXC XXXA"><si></si></compres>
+    <adreça>
+        <localitat>
+            <codi_postal>08005</codi_postal>
+            <carrer>
+                <nom_carrer>carrer itic</nom_carrer>
+                <num_portal>2</num_portal>
+            </carrer>
+        </localitat>
+    </adreça>
+</client>
+</clients>
+</botiga>

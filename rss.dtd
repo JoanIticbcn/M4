@@ -1,0 +1,13 @@
+<!ELEMENT channel (title,link,description,lastbuildate,language)>
+<!ELEMENT image (url,title,link,width,height)>
+<!ELEMENT item (title,link,category)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT lastbuildate (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT width (#PCDATA)>
+<!ELEMENT height (#PCDATA)>
+<!ELEMENT category (#PCDATA)>

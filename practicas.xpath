@@ -1,0 +1,7 @@
+/sistemes operatius//nom/text()
+/sistemes operatius/sistema[2]
+/sistemes operatius/sistema[2]/nom/text()
+/sistemes operatius/sistema[propietari='Google']/any_llançament/text()
+/sistemes operatius/sistema[any_llançament>=1901 and any_llançament<=2000]/propietari/text()
+/sistemes operatius/sistema[@versio=12]/nom/text()
+//sistema[nom="Android" or nom="macOs"]

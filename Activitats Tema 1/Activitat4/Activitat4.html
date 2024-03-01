@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Subscriute al noticiari ITICBCN</h1>
+
+    <form action="formulari enviat.html">
+        
+        <div>
+            <legend>Primer, explica'ns qui ets</legend>
+            <table>
+                <tr>
+                    <td><label for="form-email">Email</label></td>
+                    <td><input class="form1" id="form-email" type="email" required ></td>
+                </tr>
+                <tr>
+                    <td><label for="form-nom">Nom i cognoms</label></td>
+                    <td><input class="form1" type="text" name="" id="form-nom" required></td>
+                </tr>
+                <tr>
+                    <td><label for="form-edat">Edat</label></td>
+                    <td><input class="form1" type="number" name="" id="form-edat" required max="140"></td>
+                </tr>
+            </table>         
+        
+        </div>
+
+        <br>
+        <div>
+            <legend>Quin cicle estàs estudiant?</legend>
+            <br>
+            <input type="radio" name="estudis" id="ASIX" value="ASIX" required checked>
+            <label for="ASIX">ASIX</label>
+            <br>
+            <input type="radio" name="estudis" id="DAM" value="DAM" required>  
+            <label for="DAM">DAM</label>
+            <br>
+            <input type="radio" name="estudis" id="DAW" value="DAW" required>
+            <label for="DAW">DAW</label>
+        </div>
+        <br>
+        <div>
+            <label for="curs">En quin curs</label>
+            <select name="curs" id="curs">
+            <option value="1r">1r</option>   
+            <option value="2nd">2nd</option>
+            </select>
+
+            
+        </div>
+
+
+
+        <br>
+        <div>
+            <legend>Marca els temes que vulguis estar sempre al dia!</legend>
+            <br>
+            <input type="checkbox" name="temes" id="Inteligencia-artificial" value="Inteligencia-artificial"  checked>
+            <label for="Inteligencia-artificial">Inteligencia artificial</label>
+            <br>
+            <input type="checkbox" name="temes" id="Computacio-quantica" value="Computacio-quantica" >
+            <label for="Computacio-quantica">Computacio quantica</label>
+            <br>
+            <input type="checkbox" name="temes" id="Supercomputadors" value="Supercomputadors" >
+            <label for="Supercomputadors">Supercomputadors</label>
+            <br>
+            <input type="checkbox" name="temes" id="Algorsismes" value="Algorsismes" >
+            <label for="Algorsismes">Recerca en Algorsismes</label>
+        </div>
+        <br>
+        <div>
+            <legend>Hi ha algun tema més t'interessi? Explica'ns-ho!</legend>
+            <br>
+            <textarea name="textarea" rows="10" cols="40" required>Tambe m'agradaria saber les ultimes novetats sobre</textarea>
+        </div>
+        <br>
+
+
+        <button type="submit" class="button">Subscriume</button>
+
+        
+
+    </form>
+    
+</body>
+</html>

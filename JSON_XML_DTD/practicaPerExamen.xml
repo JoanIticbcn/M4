@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE proyectos SYSTEM "./pracicaPerexamen.dtd">
+<proyectos>
+    <proyecto id="AAA" idioma="cat">
+        <nombre>Raid area51</nombre>
+        <cliente>
+            <nombre>Elon musk</nombre>
+            <contacto>
+                <correo>elon@yahho.com</correo>
+                <telefono pais="es">+42 123 912 239 32</telefono>
+            </contacto>
+        </cliente>
+        <disenadores>
+            <disenador>
+                <nombre>Elon musk</nombre>
+                <contacto>
+                    <correo>elon@yahho.com</correo>
+                    <telefono pais="es">+42 123 912 239 32</telefono>
+                </contacto>
+            </disenador>
+        </disenadores>
+        <tecnologias>
+            <tecnologia>Linux</tecnologia>
+            <tecnologia>HTML</tecnologia>
+        </tecnologias>
+        <fecha_finalizacion>12/12/2052</fecha_finalizacion>
+
+    </proyecto>
+</proyectos>

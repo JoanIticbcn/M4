@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE proyectos SYSTEM "./pracicaPerexamen.dtd">
+<proyectos>
+    <proyecto id="AAA">
+        <nombre>Raid area51</nombre>
+        <cliente>
+            <nombre>Elon musk</nombre>
+        </cliente>
+        <disenadores>
+
+        </disenadores>
+        <tecnologias>
+            <tecnologia>HTML</tecnologia>
+        </tecnologias>
+        <fecha_finalizacion>12/12/2052</fecha_finalizacion>
+
+    </proyecto>
+</proyectos>

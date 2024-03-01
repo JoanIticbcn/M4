@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<todo>
+    <fonts>
+        <font>
+            <nom>Roboto</nom>
+            <mida>14</mida>
+            <esil>normal</esil>
+    
+        </font>
+        <font>
+            <nom>Mono</nom>
+            <mida>12</mida>
+            <esil>negreta</esil>
+        </font>
+    </fonts>
+    
+    
+    <idioma>catala</idioma>
+    <tema>fosc</tema>
+    <notificacion actividades="true">
+        <to>Predeterminat</to>
+    </notificacion>
+    <preferencies>
+        <mostra_pulicitat>false</mostra_pulicitat>
+        <ordre_menu>
+            <element index="1">peril</element>
+            <element index="2">config</element>
+            <element index="3">ajuda</element>
+        </ordre_menu>
+    </preferencies>
+</todo>

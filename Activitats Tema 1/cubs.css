@@ -1,0 +1,28 @@
+body{
+    background-color: black;    
+}
+span{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+div{
+    height: 20vh;
+    width: 20vh;
+    background-color: purple;
+    margin: 1vh;
+    text-align: center;
+    color: white;
+    font-size:15vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: arial;
+    border-radius: 1vh;
+}
+div:hover{
+    height: 42vh;
+    width: 42vh;
+    background-color: lightgreen;
+    transition: 1s;
+}
